@@ -89,9 +89,9 @@ GEM
       ruboty (>= 1.1.4)
       slack-api (~> 1.0.0)
       slack-rtmapi (~> 1.0.0.rc4)
-    ruboty-todo (0.3.0)
+    ruboty-todo (0.4.0)
       ruboty
-    signet (0.7.1)
+    signet (0.7.2)
       addressable (~> 2.3)
       faraday (~> 0.9)
       jwt (~> 1.5)
@@ -125,4 +125,4 @@ DEPENDENCIES
   ruboty-todo
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
