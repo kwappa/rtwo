@@ -19,6 +19,7 @@ GEM
       multi_json (>= 1.0.0)
     chrono (0.3.0)
       activesupport
+    date_misc (1.1.1)
     dotenv (2.0.2)
     eventmachine (1.0.8)
     extlib (0.9.16)
@@ -75,6 +76,9 @@ GEM
       activesupport
       chrono
       ruboty (>= 0.2.0)
+    ruboty-gominohi (0.1.0)
+      date_misc
+      ruboty
     ruboty-google_calendar (0.1.0)
       activesupport
       google-api-client
@@ -117,6 +121,7 @@ PLATFORMS
 DEPENDENCIES
   ruboty
   ruboty-cron
+  ruboty-gominohi
   ruboty-google_calendar
   ruboty-redis
   ruboty-reminder

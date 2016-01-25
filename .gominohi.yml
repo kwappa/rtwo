@@ -1,0 +1,15 @@
+version: '0.1.0'
+garbage_collectors:
+  - kwappa
+  - emsoy
+garbage_collection_days:
+  - name: '可燃ごみ'
+    wday: [3, 6]
+    emoticon: ':fire:'
+  - name: '不燃ごみ'
+    wday: [4]
+    position:  [2, 4]
+    emoticon: ':put_litter_in_its_place:'
+  - name: '資源'
+    wday: [5]
+    emoticon: ':recycle:'
